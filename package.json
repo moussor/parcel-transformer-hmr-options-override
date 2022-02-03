@@ -1,0 +1,16 @@
+{
+  "name": "parcel-transformer-hmr-options-override",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "fabioimpe",
+  "repository": {
+    "url": "https://github.com/fabioimpe/parcel-transformer-hmr-options-override"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@parcel/plugin": "^2.2.1"
+  },
+  "engines": {
+    "parcel": "2.x"
+  }
+}

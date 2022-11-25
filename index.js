@@ -5,7 +5,7 @@ module.exports = new Transformer({
     // Retrieve the asset's source code and source map.
     let source = await asset.getCode();
     const sourceMap = await asset.getMap();
-    console.log('hmr options?', options, options.hmrOptions);
+    // console.log('hmr options?', options, options.hmrOptions, source);
     if(options.hmrOptions) {
 
       const { host: hmrHost, port: hmrPort } = options.hmrOptions;
